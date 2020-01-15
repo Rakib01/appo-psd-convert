@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700&display=swap');
+
+
+
+/*=========== main menu part css =========== */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar-expand-lg  .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 65px;
+    color: #fff;
+}
+.navbar-brand{
+    padding-top: 65px;
+}
+/* =========== banner part css =========== */
+#banner{
+    position: relative;
+}
+#banner{
+    background: url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-content h2{
+    padding-top: 225px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fff;
+}
+.banner-content p{
+    padding-top: 27px;
+    padding-bottom: 60px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner-content a{
+    padding: 13px 30px;
+    margin: 0px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner-content a:hover{
+    background: #fff;
+    color: #000000;
+}
+.smartphn{
+    padding-top: 150px;
+}
+/* =========== about part css =========== */
+#about {
+position: relative;
+}
+#about img{
+    position: absolute;
+    top: -170px;
+    left: 0px;
+}
+.phnoe img{
+    padding-top: 350px;
+   
+}
+.cart{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 0px 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.cart i{
+    font-size: 60px;
+    color: #0d82c1;
+}
+.cart h3{
+    color: #233148;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 30px;
+}
+.cart p{
+    color: #6a6d89;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 30px;
+}
+.support{
+    padding-top: 110px;
+}
+.modern{
+    padding-top: 60px;
+}
+.fully{
+    padding-top: 210px;
+}
+.user{
+    padding-top: 100px;
+}
+
+/* ====== faq part css ====== */
+#faq{
+    padding: 100px 0px;
+}
+.faqleft{
+    padding-top: 60px;
+}
+.faqleft h2{
+    color: #233148;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+.faqleft p{
+    color: #6a6d89;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 27px;
+    padding: 50px 0px;
+}
+.faqleft a{
+    padding: 23px 30px;
+    background: #33d2fd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+.made{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 25px 0px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.made:hover{
+    background: #33d2fd;
+    color: #fff;
+}
+.faqright{
+    margin-top: 20px;
+}
+.faqright .made h3{
+    display: inline-block;
+    color: #233148;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 15px;
+}
+.made p{
+    padding-left: 40px;
+}
+.faqright .made i{
+    font-size: 20px;
+}
+
+/* ====== need part css ====== */
+
+#need{
+    padding: 100px 0px;
+    background: #fafafc;
+}
+.needtext h3{
+    color: #233148;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 50px;
+}
+.needtext p{
+    color: #6a6d89;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* ====== playstore part css ====== */
+
+#playstore{
+    padding: 70px 0px;
+    background: url(../images/bg3.jpg);
+    position: relative;
+}
+.playtext h3{
+    padding-top: 180px;
+    color: #233148;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.playtext p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px 20px;
+    padding-left: 0px;
+}
+.playtext img{
+    padding: 0px 30px;
+    padding-left: 0px;
+}
+.bar{
+    position: absolute;
+    background: #fa5377;
+    bottom: -50px;
+    left: 40%;
+    padding: 30px 90px;
+    color: #fff;
+}
+.bar h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#footmenu{
+    padding: 100px 0px;
+}
+.footmenuc h3{
+    color: #233148;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+.footmenuc a{
+    color: #6a6d89;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+#footer{
+    padding: 20px 0px;
+    background: #233148;
+    color: #fff;
+}
+
+
+
+.footicon a{
+    padding: 0px 20px;
+    color: #ffffff;
+    font-size: 25px;
+}
